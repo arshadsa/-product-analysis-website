@@ -1,6 +1,5 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import getRandomInt from '../../hooks/functions';
 import Reviews from '../Reviews/Reviews';
 import './Home.css';
 
