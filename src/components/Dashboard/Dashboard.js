@@ -9,6 +9,9 @@ import {
   Area,
   CartesianGrid,
   ResponsiveContainer,
+  Tooltip,
+  Legend,
+  Label,
 } from "recharts";
 
 const Dashboard = () => {
@@ -29,6 +32,8 @@ const Dashboard = () => {
               <Line type="monotone" dataKey="sell" stroke="#8884d8" />
               <XAxis dataKey="month" />
               <YAxis />
+              <Tooltip />
+              <Legend />
             </LineChart>
           </ResponsiveContainer>
         </div>
@@ -41,7 +46,9 @@ const Dashboard = () => {
             <AreaChart data={data}>
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="month" />
-              <YAxis />
+              <YAxis/>
+              <Tooltip />
+              <Legend />
               <Area
                 type="monotone"
                 dataKey="investment"
