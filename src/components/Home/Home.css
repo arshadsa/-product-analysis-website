@@ -1,0 +1,57 @@
+.blue{
+  color: blue;
+}
+
+.home{
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hero-area-description{
+  margin: auto 0;
+  align-items: center;
+  text-align: left;
+  max-width: 500px;
+
+}
+
+.shoe-div{
+  display: flex;
+  align-items: center;
+}
+
+img{
+  width: 100%;
+}
+
+.customer-review-home{
+  margin: 40px 0;
+}
+
+.customer-review-home button, .home button{
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.customer-review-home button:hover, .home button:hover{
+  background-color: salmon;
+}
+
+@media screen and (max-width:426px) {
+  .home{
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: 12fr;
+  }
+}

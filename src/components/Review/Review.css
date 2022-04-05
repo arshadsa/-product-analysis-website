@@ -1,0 +1,26 @@
+.user-review{
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  margin: auto;
+  margin: 10px 0;
+}
+
+
+.user-review-text{
+  text-align: left;
+  margin-left: 20px;
+}
+
+.user-review-text p{
+  margin: 0;
+}
+
+.user-pic{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.user-pic img{
+  width: 40px;
+}
