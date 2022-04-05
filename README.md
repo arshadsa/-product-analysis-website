@@ -1,4 +1,4 @@
-# Github link
+# Great Shoe
 
 Github repository link [Product Review App](https://github.com/programming-hero-web-course-4/product-analysis-website-arshadsa).
 
