@@ -6,7 +6,7 @@ import {getRandomInt} from '../../hooks/functions';
 
 const Review = ({user_review}) => {
   
-  const {name, review, picture} = user_review;
+  const {name, review, picture,reviewDescription} = user_review;
   const starReview = (review) =>
   { 
     let reviewOutput = [];
@@ -24,6 +24,7 @@ const Review = ({user_review}) => {
       </div>
       <div className='user-review-text'>
         <p>Name: {name}</p>
+        <p>Description: {reviewDescription}</p>
         <p>Review: {review}</p>
         <p>{starReview(review)}</p>        
       </div>

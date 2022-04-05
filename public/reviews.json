@@ -3,54 +3,63 @@
     "_id": "6249e53e2565de67bb3ab698",
     "name": "Ruthie Yang",
     "review": 3.5,
-    "picture": "photo-1.jpg"
+    "picture": "photo-1.jpg",
+    "reviewDescription": "This shoes is very nice."
   },
   {
     "_id": "6249e53e7aff848b7379cb93",
     "name": "Darcy Rivers",
     "review": 4.5,
-    "picture": "photo-2.jpg"
+    "picture": "photo-2.jpg",
+    "reviewDescription": "This shoes is very nice."    
   },
   {
     "_id": "6249e53e8fac8352f43420cf",
     "name": "Henrietta Mann",
     "review": 5,
-    "picture": "photo-3.jpg"
+    "picture": "photo-3.jpg",
+    "reviewDescription": "Excellent shoe."
   },
   {
     "_id": "6249e53e12384e40736ad47d",
     "name": "Tonya Kerr",
     "review": 3,
-    "picture": "photo-4.jpg"
+    "picture": "photo-4.jpg",
+    "reviewDescription": "Superb!"
   },
   {
     "_id": "6249e53eded6178e43d46f37",
     "name": "Roseann Harper",
     "review": 4,
-    "picture": "photo-5.jpg"
+    "picture": "photo-5.jpg",
+    "reviewDescription": "I like this shoe!"
   },
   {
     "_id": "6249e53e8706aa568fe11c57",
     "name": "Stanley Mcdowell",
     "review": 5,
-    "picture": "photo-6.jpg"
+    "picture": "photo-6.jpg",
+    "reviewDescription": "Awoesome."
   },
   {
     "_id": "6249e53e15ba89093f3cde4e",
     "name": "Hodge Strong",
     "review": 3,
-    "picture": "photo-7.jpg"
+    "picture": "photo-7.jpg",
+    "reviewDescription": "Georgious!"
   },
   {
     "_id": "6249e53e27a478e8be5355bb",
     "name": "Polly Ball",
     "review": 3,
-    "picture": "photo-8.jpg"
+    "picture": "photo-8.jpg",
+    "reviewDescription": "Best shoe in my life."
   },
   {
     "_id": "6249e53e25acecfc7b293012",
     "name": "Blanchard Ferguson",
     "review": 4,
-    "picture": "photo-9.jpg"
+    "picture": "photo-9.jpg",
+    "reviewDescription": "Couldn't be better."
   }
 ]

@@ -30,6 +30,7 @@ const Dashboard = () => {
           <ResponsiveContainer width="100%" height="100%">
             <LineChart data={data}>
               <Line type="monotone" dataKey="sell" stroke="#8884d8" />
+              <Line type="monotone" dataKey="production" stroke="#82ca9d" />
               <XAxis dataKey="month" />
               <YAxis />
               <Tooltip />
